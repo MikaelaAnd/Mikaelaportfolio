@@ -209,7 +209,8 @@ a {
     }
 
     ul.show {
-        display: contents;
+        display: flex;
+        flex-direction: column;
     }
 
     ul {
@@ -219,8 +220,8 @@ a {
     }
 
     li {
-        width: 20%;
-        margin: 0;
+        width: 40%;
+        margin: 10px 0;
     }
     
     nav {
