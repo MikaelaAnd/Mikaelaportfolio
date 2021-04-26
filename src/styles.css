@@ -209,8 +209,7 @@ a {
     }
 
     ul.show {
-        display: flex;
-        flex-direction: column;
+        display: contents;
     }
 
     ul {
@@ -220,7 +219,6 @@ a {
     }
 
     li {
-        width: 40%;
         margin: 10px 0;
     }
     
