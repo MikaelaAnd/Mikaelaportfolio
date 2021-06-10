@@ -215,7 +215,6 @@ footer {
 
     ul {
         display: none;
-        background-color: #31323f;
         margin: 0px;
     }
 
@@ -227,7 +226,6 @@ footer {
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #31323f;
         width: 100%;
     }
 
@@ -287,6 +285,7 @@ footer {
     
     .hero {
         width: 100%;
+        background-image: url(./images/background\ small.jpeg);
         display: flex;
         flex-wrap: wrap;
     }
