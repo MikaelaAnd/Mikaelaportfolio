@@ -224,11 +224,12 @@ footer {
         display: flex;
         flex-wrap: wrap;
         padding: 0;
+        height: 10rem;
     }
 
     .hero-text {
-        margin-top: 20px;
-        margin-left: 10px;
+        margin-top: 60px;
+        margin-left: 30px;
     }
 
     ul.show {
@@ -243,6 +244,7 @@ footer {
 
     li {
         margin: 10px 0;
+        font-size: 20px;
     }
     
     nav {
@@ -331,7 +333,23 @@ footer {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .FED {
+        font-size: 20px;
     }
 
     .button {
