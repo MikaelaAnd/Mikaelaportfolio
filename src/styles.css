@@ -14,7 +14,8 @@ section {
 }
 
 .hero {
-    background-color: #3f3f53;
+    background-image: url(./images/background.jpeg);
+    box-shadow: 30px;
     height: 40rem;
     color: white;
     font-size: 40px;
@@ -34,7 +35,7 @@ footer {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     width: 100%;
     font-family: 'Transine';
 }
@@ -93,39 +94,15 @@ p {
     margin-bottom: 200px;
 }
 
-.button {
-    width: 200px;
-    height: 55px;
-    border-radius: 30px;
-    background-color: rgb(172, 165, 212);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 300;
-    padding-top: 5px;
-    margin-top: 20px;
-}
-
-.button:hover {
-    background-color: rgb(210, 205, 236);
-}
-
-.button:active {
-    background-color: #A9A9A9;
-    color: #808080;
-}
 
 .socials {
+    flex-direction: column;
+    display: flex;
     padding-bottom: 200px;
 }
 
-.logo {
-    height: 60px;
-    margin: 40px 40px 40px 80px;
-
-}
-
 .social {
-    margin: 20px;
+    margin: .2rem 0;
 }
 
 .sub-section {
@@ -252,10 +229,6 @@ footer {
         flex-direction: column-reverse;
         background-color: #31323f;
         width: 100%;
-    }
-
-    .logo {
-        display: none;
     }
 
     h1 {
