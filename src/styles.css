@@ -1,6 +1,10 @@
+@font-face {
+    font-family: "Transine";
+    src: url("./Transine\ brush.ttf");
+}
+
 body {
     font-family: 'Josefin Sans', sans-serif;
-
     margin: 0;
     background-color: white;
 }
@@ -10,15 +14,19 @@ section {
 }
 
 .hero {
-    background-color: #1b1b24;
-    height: 100vh;
+    background-color: #3f3f53;
+    height: 40rem;
     color: white;
     font-size: 40px;
     width: 100%;
 }
 
+.FED {
+    font-size: 40px;
+}
+
 footer {
-    background-color: #1b1b24;
+    background-color: #3f3f53;
     color: white;
     text-align: center;
     padding: 80px;
@@ -28,6 +36,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    font-family: 'Transine';
 }
 
 ul {
@@ -35,27 +44,28 @@ ul {
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
-    font-size: 30px;
 }
 
 li {
-    /* width: 200px; */
     text-decoration: none;
 }
 
 h1 {
-    font-size: 90px;
+    font-family: 'Transine';
+    font-size: 110px;
     margin: 0;
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 70px;
+    font-family: 'Transine';
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 60px;
     margin: 0;
     margin-top: 20px;
+    font-family: 'Transine';
 }
 
 p {
@@ -87,7 +97,7 @@ p {
     width: 200px;
     height: 55px;
     border-radius: 30px;
-    background-color: coral;
+    background-color: rgb(172, 165, 212);
     text-align: center;
     font-size: 40px;
     font-weight: 300;
@@ -96,7 +106,7 @@ p {
 }
 
 .button:hover {
-    background-color: #ef744b;
+    background-color: rgb(210, 205, 236);
 }
 
 .button:active {
@@ -109,8 +119,9 @@ p {
 }
 
 .logo {
-    height: 120px;
-    margin: 30px;
+    height: 60px;
+    margin: 40px 40px 40px 80px;
+
 }
 
 .social {
@@ -166,7 +177,7 @@ hr {
 
 .project-link {
     text-decoration: none;
-    color: #ef744b;
+    color: rgb(172, 165, 212);
     font-weight: 300;
 }
 
