@@ -239,6 +239,10 @@ a {
         width: 100%;
     }
 
+    .information {
+        margin: 0 20px;
+    }
+
     h1 {
         font-size: 30px;
     }
@@ -253,6 +257,7 @@ a {
 
     p {
         font-size: 15px;
+        font-weight: 300;
     }
 
     .FED {
@@ -289,10 +294,6 @@ a {
 
     footer {
         padding: 0;
-    }
-
-    footer > p {
-        font-weight: 300;
     }
 }
 
