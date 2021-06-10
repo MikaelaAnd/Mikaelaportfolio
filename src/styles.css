@@ -15,6 +15,7 @@ section {
 
 .hero {
     background-image: url(./images/background.jpeg);
+    object-fit:contain;
     box-shadow: 30px;
     height: 40rem;
     color: white;
@@ -195,6 +196,8 @@ footer {
 
     .hero {
         padding: 0;
+        background-image: url(./images/background\ small.jpeg);
+        height: 22rem;
     }
 
     .hero-area {
@@ -220,6 +223,7 @@ footer {
 
     li {
         margin: 10px 0;
+        margin-left: 10px;
         font-size: 20px;
     }
     
@@ -230,7 +234,23 @@ footer {
     }
 
     h1 {
-        font-size: 60px;
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .FED {
+        font-size: 20px;
     }
 
     .sub-section {
@@ -285,7 +305,6 @@ footer {
     
     .hero {
         width: 100%;
-        background-image: url(./images/background\ small.jpeg);
         display: flex;
         flex-wrap: wrap;
     }
@@ -302,32 +321,6 @@ footer {
 
     .hero-text {
         margin: 0;
-    }
-
-    h1 {
-        font-size: 30px;
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 20px;
-    }
-
-    .FED {
-        font-size: 20px;
-    }
-
-    .button {
-        width: 100px;
-        height: 25px;
-        font-size: 20px;
     }
 
     .sub-section {
