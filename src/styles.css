@@ -25,6 +25,7 @@ section {
 
 .FED {
     font-size: 40px;
+    font-weight: 300;
 }
 
 footer {
@@ -109,13 +110,13 @@ p {
 
 
 .socials {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     display: flex;
-    padding-bottom: 200px;
 }
 
 .social {
-    margin: .2rem 0;
+    margin: 1rem 0;
 }
 
 .sub-section {
@@ -194,10 +195,6 @@ a {
         font-size: 30px;
         margin: 20px;
         align-self: flex-end;
-    }
-
-    .socials {
-        display: none
     }
 
     .hero {
