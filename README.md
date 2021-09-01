@@ -1,9 +1,8 @@
 # My portfolio
 
-I followed Ania Kubows tutorial and created a new portfolio for myself. 
-I don't got any logo so I added a picture of Miley Cyrus instead cause she is the Queen. 
+I followed Ania Kubows tutorial and created a new portfolio for myself.  
 
-The background photo is taken by my crappy iphone 7 camera so sorry for the pixels, <br> but the picture is of the Atlantic Ocean
+The background photo is taken by my crappy iphone 7 camera, so sorry for the pixels <br> but the picture is of the Atlantic Ocean
 so I will keep it until I take another one!
 
-See it on netlify here >> [click!](https://mikaelaandersson.netlify.app/)
+Watch it on Netlify here >> [click!](https://mikaelaandersson.netlify.app/)
