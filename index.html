@@ -1,111 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
     <script defer src="/src/script.js"></script>
-    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymus"></script>
-    <title>Portfolio</title>
-</head>
 
-<body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FTN3YK43WR"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FTN3YK43WR");
+    </script>
+    <title>Portfolio</title>
+  </head>
+
+  <body>
     <main>
-        <section class="hero">
-            <nav>
-                <ul id="nav-list">
-                    <li><a href="#about-me">About me</a></li>
-                    <li><a href="#projects">Project</a></li>
-                    <li><a href="#contact">Contact me</a></li>
-                </ul>
-                <button class="hamburger" id="hamburger">
-                    <i class="fas fa-hamburger"></i>
-                </button>
-            </nav>
-            <div class="hero-area">
-                <div class="hero-text">
-                    <h1>M i k a e l a &nbsp; A n d e r s s o n</h1>
-                    <p class="FED">Front End Developer</p>
-                </div>
-            </div>
-        </section>
+      <section class="hero">
+        <nav>
+          <ul id="nav-list">
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact me</a></li>
+          </ul>
+          <button class="hamburger" id="hamburger">
+            <i class="fas fa-hamburger"></i>
+          </button>
+        </nav>
+        <div class="hero-area">
+          <div class="hero-text">
+            <h1>M i k a e l a &nbsp; A n d e r s s o n</h1>
+            <p class="FED">Front End Developer</p>
+          </div>
+        </div>
+      </section>
     </main>
     <section class="sub-section" id="about-me">
-        <div class="information">
-            <h2 class="">About me</h2>
-            <p>Hi. My name is Mikaela. I am currently studying to become a Front End Developer.</p>
-        </div>
-        <div class="headshot-container">
-            <img class="headshot" src="src/images/mikaela (kopia).jpg" alt="mikaela headshot" />
-        </div>
+      <div class="information">
+        <h2 class="">About me</h2>
+        <p>
+          Hi. My name is Mikaela. I am currently studying to become a Front End
+          Developer.
+        </p>
+      </div>
+      <div class="headshot-container">
+        <img
+          class="headshot"
+          src="src/images/mikaela (kopia).jpg"
+          alt="mikaela headshot"
+        />
+      </div>
     </section>
     <section class="sub-section-alt" id="projects">
-        <h2>Projects</h2>
-        <div class="project-container">
-            <div class="project-card">
-                <img class="project-image" style="height: 9rem;" src="./src/images/project1.png" alt="" />
-                <h4>One</h4>
-                <p class="sub-text">This is an API project for school that we built with react and typescript.</p>
-                <hr />
-                <p class="sub-text"><a class="project-link" href="https://github.com/MikaelaAnd/rapidapi-app">View
-                        here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" style="height: 9rem;" src="./src/images/project2.png" alt="" />
-                <h4>Two</h4>
-                <p class="sub-text">Another school project where we were assigned to create a game using typescript and
-                    P5 play.</p>
-                <hr />
-                <p class="sub-text"><a class="project-link" href="https://github.com/MikaelaAnd/Ball-game">View here</a>
-                </p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" style="height: 9rem;" src="./src/images/project3.png" alt="" />
-                <h4>Three</h4>
-                <p class="sub-text">A third school project. We were going to create a fake web shop using typescript and
-                    react.</p>
-                <hr />
-                <p class="sub-text"><a class="project-link" href="https://github.com/MikaelaAnd/bjork">View here</a></p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" style="height: 9rem;" src="./src/images/project4.png" alt="" />
-                <h4>Four</h4>
-                <p class="sub-text">My fourth school project. We were assigned to create a calendar where the user can
-                    place to do's on different dates. We used typescript for this one.</p>
-                <hr />
-                <p class="sub-text"><a class="project-link" href="https://github.com/MikaelaAnd/calendar">View here</a>
-                </p>
-            </div>
-            <div class="project-card">
-                <img class="project-image" style="height: 9rem;" src="./src/images/project5.png" alt="" />
-                <h4>Five</h4>
-                <p class="sub-text">The fifth project. We were trying to learn how socket.io works, and created a chat
-                    app where you can log in and chat with others. Works on the same computer in different tabs!</p>
-                <hr />
-                <p class="sub-text"><a class="project-link" href="https://github.com/MikaelaAnd/chat-room">View here</a>
-                </p>
-            </div>
+      <h2>Projects</h2>
+      <div class="project-container">
+        <div class="project-card">
+          <img
+            class="project-image"
+            style="height: 9rem"
+            src="./src/images/project1.png"
+            alt=""
+          />
+          <h4>One</h4>
+          <p class="sub-text">
+            This is an API project for school that we built with react and
+            typescript.
+          </p>
+          <hr />
+          <p class="sub-text">
+            <a
+              class="project-link"
+              href="https://github.com/MikaelaAnd/rapidapi-app"
+              >View here</a
+            >
+          </p>
         </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            style="height: 9rem"
+            src="./src/images/project2.png"
+            alt=""
+          />
+          <h4>Two</h4>
+          <p class="sub-text">
+            Another school project where we were assigned to create a game using
+            typescript and P5 play.
+          </p>
+          <hr />
+          <p class="sub-text">
+            <a
+              class="project-link"
+              href="https://github.com/MikaelaAnd/Ball-game"
+              >View here</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            style="height: 9rem"
+            src="./src/images/project3.png"
+            alt=""
+          />
+          <h4>Three</h4>
+          <p class="sub-text">
+            A third school project. We were going to create a fake web shop
+            using typescript and react.
+          </p>
+          <hr />
+          <p class="sub-text">
+            <a class="project-link" href="https://github.com/MikaelaAnd/bjork"
+              >View here</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            style="height: 9rem"
+            src="./src/images/project4.png"
+            alt=""
+          />
+          <h4>Four</h4>
+          <p class="sub-text">
+            My fourth school project. We were assigned to create a calendar
+            where the user can place to do's on different dates. We used
+            typescript for this one.
+          </p>
+          <hr />
+          <p class="sub-text">
+            <a
+              class="project-link"
+              href="https://github.com/MikaelaAnd/calendar"
+              >View here</a
+            >
+          </p>
+        </div>
+        <div class="project-card">
+          <img
+            class="project-image"
+            style="height: 9rem"
+            src="./src/images/project5.png"
+            alt=""
+          />
+          <h4>Five</h4>
+          <p class="sub-text">
+            The fifth project. We were trying to learn how socket.io works, and
+            created a chat app where you can log in and chat with others. Works
+            on the same computer in different tabs!
+          </p>
+          <hr />
+          <p class="sub-text">
+            <a
+              class="project-link"
+              href="https://github.com/MikaelaAnd/chat-room"
+              >View here</a
+            >
+          </p>
+        </div>
+      </div>
     </section>
     <footer id="contact">
-        <h2>Contact me</h2>
-        <p>Mikaelaaand@gmail.com</p>
-        <div class="socials">
-            <a href="https://www.instagram.com" class="social">
-                <img src="./src/images/IG.png" style="width: 80px; height: auto;" alt="instagram logo" />
-            </a>
-            <a href="https://www.linkedin.com" class="social">
-                <img src="./src/images/LI.png" style="width: 50px; height: auto; margin-right: 15px;" alt="linkedin logo" />
-            </a>
-            <a href="https://www.github.com" class="social">
-                <img src="./src/images/GH.png" style="width: 50px; height: auto;" alt="github logo" />
-            </a>
-        </div>
+      <h2>Contact me</h2>
+      <p>Mikaelaaand@gmail.com</p>
+      <div class="socials">
+        <a href="https://www.instagram.com" class="social">
+          <img
+            src="./src/images/IG.png"
+            style="width: 80px; height: auto"
+            alt="instagram logo"
+          />
+        </a>
+        <a href="https://www.linkedin.com" class="social">
+          <img
+            src="./src/images/LI.png"
+            style="width: 50px; height: auto; margin-right: 15px"
+            alt="linkedin logo"
+          />
+        </a>
+        <a href="https://www.github.com" class="social">
+          <img
+            src="./src/images/GH.png"
+            style="width: 50px; height: auto"
+            alt="github logo"
+          />
+        </a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
